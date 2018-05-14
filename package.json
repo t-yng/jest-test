@@ -1,0 +1,25 @@
+{
+  "name": "jest-test",
+  "jest": {
+    "setupFiles": [
+      "./__tests__/config/setup-env.js"
+    ],
+    "testRegex": "/__tests__/src/.*.test.js$",
+    "collectCoverageFrom": [
+      "src/**.js"
+    ]
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^5.0.1",
+    "jest": "^22.4.3"
+  }
+}
